@@ -5,7 +5,6 @@ The code runs simple spring boot application on a configurable port.
 
 ### With Docker
 ```
-mvn clean install
 docker build -t backend .
 ```
 Here Dockerfile is used to create an image. Ones the image is built, run below command to run the service: 
